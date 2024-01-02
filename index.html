@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Change</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="image-card">
+                <img id="imageChange" src="./assets/image/greensweatshirt.png">
+                <div class="subcard" id="imageOptions">
+                    <div class="images">
+                        <img onclick="changeImg(this)" data-src="./assets/image/greensweatshirt.png"
+                            src="./assets/image/greendot.png">
+                        <img onclick="changeImg(this)" data-src="./assets/image/purplesweatshirt.png"
+                            src="./assets/image/purpledot.png">
+                    </div>
+                    <span class="price-info">
+                        <strong>Price - 24.99 &#8380;</strong>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
